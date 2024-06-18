@@ -1,0 +1,19 @@
+{
+    "manifest_version":3,
+    "version":"1.0.0",
+    "name":"Bg Changer",
+    "icons":{
+        "32":"image.png"
+    },
+    "action":{
+        "default_popup":"index.html"
+    },
+    "permissions":[
+        "scripting"
+    ],
+    "host_permissions":[
+        "http://*/*",
+        "https://*/*"
+    ]
+
+}
