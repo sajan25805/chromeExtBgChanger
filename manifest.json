@@ -1,5 +1,22 @@
 {
     "manifest_version":3,
     "name":"Bg Changer",
-    "version":"1.0.0"
+    "version":"1.0.0",
+    "icons":{
+        "32":"image.png"
+    },
+    "background":{
+        "service_worker":"service_worker.js",
+        "type":"module"
+    },
+    "action":{
+        "default_popup":"index.html"
+    },
+    "permissions":[
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
 }
